@@ -12,8 +12,8 @@
 
 ## 结果
 
-![merge_finetune_model.py ACC](acc.png)
-![merge_finetune_model.py VAL_ACC](val_acc.png)
+![](acc.png)
+![](val_acc.png)
 
 ## 其它
 
