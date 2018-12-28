@@ -10,7 +10,6 @@ import pandas as pd
 data_path = './data'
 train_data_path = './data/train'
 valid_data_path = './data/valid'
-test_data_path = './data/test'
 
 
 # 移除之前已经存在的文件夹
@@ -49,15 +48,9 @@ def create_valid_data(class_name, df):
         shutil.copy(src, dst)
 
 
-def create_test_data():
-    shutil.copy('./imgs/test/', test_data_path)
-
-
-
 if __name__ == '__main__':
 
     for classname in classname_list:
         create_train_data(classname, train_df)
         create_valid_data(classname, valid_df)
-    create_test_data()
 

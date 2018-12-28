@@ -1,0 +1,6 @@
+logs/
+model/
+data/
+imgs/
+*.hdf5
+
